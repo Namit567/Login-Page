@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+}
+
+h1 { 
+    padding-bottom: 10px;
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 0.8rem;
+}
+
+label {
+    font-weight: bolder;
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid rgb(15, 13, 13, 0.5);
+}
+
+footer {
+    margin: 20px;
+    text-align: center;
+}
+
+a {
+    color: blue;
+    margin-left: 5px;
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 100px auto;
+    padding: 10px 40px;
+    border-radius: 8px;
+    /* background-color: white; */
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    z-index: 2;
+}
+
+.container > form > header {
+    
+    margin-bottom: 20px;
+}
+
+.button {
+    color: white;
+    font-weight: bold;
+    background-color: #2B7DBE;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #006caa;
+}
+
+.circle1 {
+    position: absolute;
+    top:20%;
+    left: 10%;
+    width: 130px;
+    height: 130px;
+    background-color: white;
+    border-radius: 50%;
+    
+    /* From https://css.glass */
+    background-color: rgba(65, 88, 208,0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.circle2 {
+    position: absolute;
+    top:35%;
+    right: 15%;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+}
+
